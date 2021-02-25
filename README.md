@@ -9,9 +9,9 @@
           • -1 means that the wafer is faulty and it needs to be replaced. 
 
 
-2. Data Description
+  2. Data Description
 
-  The client will send data in multiple sets of files in batches at a given location. Data will contain Wafer names and 590 columns of different sensor values for     each wafer. The last column will have the "Good/Bad" value for each wafer.
+  The client will send data in multiple sets of files in batches at a given location. Data will contain Wafer names and 590 columns of different sensor values for    each wafer. The last column will have the "Good/Bad" value for each wafer.
   "Good/Bad" column will have two unique values +1 and -1.  
   "+1" represents Bad wafer.
   "-1" represents Good Wafer. 
@@ -21,15 +21,21 @@
 Follow these steps to run the code.
 
 1. Create a new environment 
+
         conda create -n wafferDetection python==3.6
         
 2. Activate your conda 
+
         conda activate wafferDetection
         
 3. Now do installation of requirements.txt file to get all the pacakges.
+
+
         pip install -r requirements.txt
         
 4. After succesfully installation of requirements.txt
+
+
         run the code by using :- python main.py
         
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
