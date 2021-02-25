@@ -42,6 +42,28 @@ Follow these steps to run the code.
 
 # Sentiment Analysis
 
+# How to Run code 
+
+Follow these steps to run the code.
+
+1. Create a new environment 
+
+        conda create -n sentiment_analysis python==3.6
+        
+2. Activate your conda 
+
+        conda activate sentiment_analysis
+        
+3. Now do installation of requirements.txt file to get all the pacakges.
+
+
+        pip install -r requirements.txt
+        
+4. After succesfully installation of requirements.txt
+
+
+        run the code by using :- python clientApp.py
+
 
    
         
